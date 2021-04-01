@@ -170,9 +170,45 @@ a {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  top: 25%;
+  left: 15%;
+  width: 45%;
+  min-width: 300px;
+  text-align: left;
+}
+
+.text h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+.text p {
+  text-align: left;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.text button {
+  color: var(--light-gray);
+  width: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: var(--light-blue);
+  border: none;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.text button:hover {
+  background-color: #1facc5;
+}
+
+.text button a {
+  text-decoration: none;
+  color: var(--light-gray);
 }
 
 /* Number text (1/3 etc) */
@@ -407,7 +443,7 @@ button .green-btn {
 
 /* ======= About Section ======== */
 
-#about {
+#aboutus {
   width: 100%;
   height: auto;
   padding: 80px 150px;
@@ -676,6 +712,15 @@ footer {
 
 .stay-updated i:hover {
   color: var(--green-color);
+}
+
+/* Rights */
+
+.rights {
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  text-align: center;
 }
 
 /* ======= RESPONSIVE ========== */
