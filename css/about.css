@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #f3f3f3;
+  --dark-grey: #283747;
+  --green-color: #035e21;
+  --dark-text: #383b42;
+  --dark-blue: #2e3192;
+  --light-blue: #009db7;
+  --mid-aqua: #1dd0d8;
+  --light-aqua: #7ae3f4;
+}
+
+.hero.inner-page {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/kidseated.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(71, 70, 70, 0.671);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-overlay h1 {
+  color: var(--light-blue);
+  font-size: 7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-overlay p {
+  font-size: 2rem;
+}
+
+#mission {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+
+#mission h3 {
+  margin-bottom: 3rem;
+}
+
+#mission p {
+  color: var(--dark-text);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+img {
+  float: right;
+  margin: 20px;
+}
+
+span.spam-bold {
+  color: var(--dark-blue);
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Team section  */
+
+#team {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+
+.title h2 {
+  margin-bottom: 8rem;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab .tablinks {
+  width: 33.3%;
+  background-color: inherit;
+  font-size: 1.8rem;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.flag-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.flag-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Change background color of buttons on hover */
+.tab .tablinks:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab .tablinks.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent-flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.content-flex {
+  width: 40%;
+  min-width: 300px;
+  height: auto;
+  margin: 10px;
+  /* padding: 0 30px; */
+}
+
+.tabcontent h4 {
+  color: var(--light-blue);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.tabcontent p {
+  color: var(--dark-text);
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+#impact {
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+}
+
+.impact-container h3 {
+  color: var(--light-blue);
+  margin-bottom: 4rem;
+}
+
+.impact-container p {
+  font-size: 1.8rem;
+  color: var(--dark-text);
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.button .btn a {
+  text-decoration: none;
+  color: var(--light-gray);
+  font-size: 2rem;
+  text-transform: uppercase;
+}

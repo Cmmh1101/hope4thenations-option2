@@ -161,7 +161,7 @@
   height: 32px;
   border-radius: 50%;
   background-color: aqua;
-  background-image: url("img/controls.png");
+  background-image: url("../img/controls.png");
   background-repeat: no-repeat;
   cursor: pointer;
   position: absolute;

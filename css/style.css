@@ -112,7 +112,7 @@ a {
 }
 /* ====================== HERO SECTION ======================= */
 
-#hero {
+.hero {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -322,14 +322,14 @@ a {
 }
 
 .donate {
-  background-image: url(img/donate.png);
+  background-image: url(../img/donate.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .volunteer {
-  background-image: url(img/volunteer.png);
+  background-image: url(../img/volunteer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,7 +340,7 @@ a {
   margin-top: 2rem;
 }
 
-button {
+.btn {
   width: 70%;
   min-width: 350px;
   background-color: var(--green-color);
@@ -351,15 +351,15 @@ button {
   border-bottom: 5px solid var(--light-blue);
 }
 
-button:hover {
+.btn:hover {
   transform: translateY(3px);
 }
 
-button:focus {
+.btn:focus {
   outline: none;
 }
 
-button .green-btn {
+.btn .green-btn {
   color: var(--light-gray);
   text-decoration: none;
   font-size: 1.6rem;
@@ -425,18 +425,18 @@ button .green-btn {
 }
 
 .box1 {
-  background-image: url(img/venezuelaflag.png);
+  background-image: url(../img/venezuelaflag.png);
   grid-column: 1/3;
   grid-row: 1/5;
 }
 .box2 {
-  background-image: url(img/chickens.png);
+  background-image: url(../img/chickens.png);
   grid-column: 3/6;
   grid-row: 3/5;
 }
 
 .box3 {
-  background-image: url(img/elderly.png);
+  background-image: url(../img/elderly.png);
   grid-column: 3/6;
   grid-row: 1/3;
 }
@@ -613,6 +613,37 @@ p {
   color: var(--green-color);
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+/* Bible Verse */
+
+#ourmanna-verse {
+  padding: 50px 100px;
+  color: var(--dark-text);
+  background: rgba(0, 0, 0, 0.171);
+  border-color: rgba(0, 0, 0, 0.171);
+}
+#mannaverse {
+  color: #2f3640;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--light-blue);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+#mannaverse-reference:before {
+  content: "- ";
+}
+#mannaverse-reference {
+  text-align: right;
+  font-size: 1.5rem;
+}
+#mannaverse-reference p {
+  color: var(--dark-text);
+}
+#mannaverse-version {
+  color: #2f3640;
 }
 
 /* Footer Section */
