@@ -1,1 +1,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #f3f3f3;
+  --dark-grey: #283747;
+  --green-color: #035e21;
+  --dark-text: #383b42;
+  --dark-blue: #2e3192;
+  --light-blue: #009db7;
+  --mid-aqua: #1dd0d8;
+  --light-aqua: #7ae3f4;
+}
+
+/* Contact */
+
+#contact {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin-top: 3rem;
+}
+
+/* form */
+
+.form-container {
+  width: 60%;
+  height: auto;
+}
+
+.contactMeForm {
+  width: 100%;
+  /* max-width: 500px; */
+  height: auto;
+  margin: 0 auto;
+  text-align: left;
+  background: url(../img/hopeforthenationslogo.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  /* margin-bottom: 100px; */
+}
+
+.formContainer {
+  background-color: rgba(243, 244, 245, 0.938);
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.formContainer h4 {
+  text-align: center;
+  color: var(--chocolat);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+  padding: 20px 30px;
+}
+
+.contactForm {
+  padding: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form {
+  width: 100%;
+  height: auto;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+label {
+  width: 95%;
+  line-height: 2;
+  color: var(--dark-grey);
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid var(--light-blue);
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a9aaac;
+  font-size: 2rem;
+  opacity: 1; /* Firefox */
+  font-weight: 300;
+  padding-top: 0.5rem;
+  letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #8a8c8f;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #8a8c8f;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  border-color: var(--light-blue);
+  background-color: transparent;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.btn {
+  margin: 5% 15%;
+  /* border-radius: 5px; */
+  background-color: transparent;
+  border: 0;
+}
+
+.btn .btn-cta {
+  color: var(--light-gray);
+  text-decoration: none;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.btn .btn-cta:hover {
+  color: var(--cream);
+  background-color: var(--chocolat);
+  border: none;
+}
+
+.btn a .fas {
+  padding-right: 10px;
+  color: var(--light-gray);
+}

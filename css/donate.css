@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #f3f3f3;
+  --dark-grey: #283747;
+  --green-color: #035e21;
+  --dark-text: #383b42;
+  --dark-blue: #2e3192;
+  --light-blue: #009db7;
+  --mid-aqua: #1dd0d8;
+  --light-aqua: #7ae3f4;
+}

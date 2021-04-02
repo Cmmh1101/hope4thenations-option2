@@ -620,15 +620,14 @@ p {
 #ourmanna-verse {
   padding: 50px 100px;
   color: var(--dark-text);
-  background: rgba(0, 0, 0, 0.171);
+  background-color: var(--dark-blue);
   border-color: rgba(0, 0, 0, 0.171);
 }
 #mannaverse {
-  color: #2f3640;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: var(--light-blue);
+  color: var(--light-gray);
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -640,7 +639,7 @@ p {
   font-size: 1.5rem;
 }
 #mannaverse-reference p {
-  color: var(--dark-text);
+  color: var(--light-gray);
 }
 #mannaverse-version {
   color: #2f3640;
@@ -750,8 +749,10 @@ footer {
 .rights {
   width: 100%;
   height: auto;
+  color: var(--light-gray);
   padding: 5px 0;
   text-align: center;
+  background-color: var(--dark-blue);
 }
 
 /* ======= RESPONSIVE ========== */
