@@ -19,7 +19,7 @@
 
 .hero.inner-page {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-image: url(../img/kidseated.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -42,14 +42,18 @@
 }
 
 .hero-overlay h1 {
-  color: var(--light-blue);
-  font-size: 7rem;
+  color: var(--light-gray);
+  font-size: 5rem;
   font-weight: 600;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .hero-overlay p {
   font-size: 2rem;
+  color: var(--light-gray);
+  padding: 0 20px;
+  letter-spacing: 1px;
 }
 
 #mission {
@@ -95,8 +99,8 @@ span.spam-bold {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  /* border: 1px solid #ccc; */
+  /* background-color: #f1f1f1; */
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -112,8 +116,9 @@ span.spam-bold {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 10px 10px 0 0;
   padding: 14px 16px;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .flag-container {
@@ -132,20 +137,24 @@ span.spam-bold {
 
 /* Change background color of buttons on hover */
 .tab .tablinks:hover {
-  background-color: #ddd;
+  /* background-color: #ddd; */
+  background-color: var(--light-aqua);
 }
 
 /* Create an active/current tablink class */
 .tab .tablinks.active {
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: var(--light-aqua);
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-top: none;
+  border-radius: 0 0 10px 10px;
+  background-color: var(--light-aqua);
 }
 
 .tabcontent-flex {
@@ -166,7 +175,7 @@ span.spam-bold {
 }
 
 .tabcontent h4 {
-  color: var(--light-blue);
+  color: var(--dark-blue);
   text-align: center;
   margin-top: 5rem;
 }
@@ -207,4 +216,215 @@ span.spam-bold {
   color: var(--light-gray);
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+/* --------------- Responsive ----------- */
+
+@media (max-width: 768px) {
+  .hero.inner-page {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/kidseated.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .hero-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 70, 70, 0.671);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+  .hero-overlay h1 {
+    color: var(--light-aqua);
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  .hero-overlay p {
+    font-size: 1.8rem;
+    color: #f1f1f1;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    padding: 20px;
+  }
+
+  /* about us */
+
+  #mission {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  /* #mission h3 {
+    margin-bottom: 3rem;
+  } */
+
+  /* #mission p {
+    color: var(--dark-text);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+  } */
+
+  img {
+    width: 100%;
+    margin: 0 0 5rem;
+  }
+
+  /* span.spam-bold {
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-style: italic;
+  } */
+
+  /* Team section  */
+
+  #team {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .title h2 {
+    margin-bottom: 8rem;
+  }
+
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab .tablinks {
+    width: 33.3%;
+    background-color: inherit;
+    font-size: 1.8rem;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px 16px;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* .flag-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  } */
+
+  /* .flag-container img {
+    width: 100%;
+    height: 100%;
+  } */
+
+  /* Change background color of buttons on hover */
+  .tab .tablinks:hover {
+    /* background-color: #ddd; */
+    background-color: var(--light-aqua);
+  }
+
+  /* Create an active/current tablink class */
+  .tab .tablinks.active {
+    /* background-color: #ccc; */
+    background-color: var(--light-aqua);
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    /* padding: 6px 12px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    background-color: var(--light-aqua);
+  }
+
+  .tabcontent-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+  }
+
+  .content-flex {
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    margin: 10px;
+    /* padding: 0 30px; */
+  }
+
+  .tabcontent h4 {
+    color: var(--dark-blue);
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .tabcontent p {
+    color: var(--dark-text);
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  #impact {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+  }
+
+  .impact-container h3 {
+    color: var(--light-blue);
+    margin-bottom: 4rem;
+  }
+
+  .impact-container p {
+    font-size: 1.8rem;
+    color: var(--dark-text);
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+  }
+
+  .button .btn a {
+    text-decoration: none;
+    color: var(--light-gray);
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
 }

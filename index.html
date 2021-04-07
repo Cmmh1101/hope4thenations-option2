@@ -16,13 +16,13 @@
     <link rel="icon" href="/img/faviconblue.png" type="image/png" sizes="16x12">
     <script src="https://kit.fontawesome.com/8ac0d99b55.js" crossorigin="anonymous"></script>
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- lightslider CSS -->
-    <link rel="stylesheet" href="css/lightslider.css">
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- lightslider.js -->
-    <script src="js/lightslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- CLOUDFARE  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
     
     
 <body>
@@ -41,7 +41,19 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="donate.html">Donate</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Programs 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                      <a href="#">Hunger Relief</a>
+                      <a href="#">Sustainable Community Garden</a>
+                      <a href="#">Fish Farming</a>
+                      <a href="#">Sustainable Work Program</a>
+                      <a href="#">Hope Sports Academy</a>
+                    </div>
+                  </div></li>
+                <!-- <li><a href="programs.html" class="dropbtn">Programs <i class="fa fa-caret-down"></i></a></li> -->
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -54,17 +66,17 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides ">
             <div class="numbertext"></div>
-            <img src="img/hero1.png" style="width:100%">
+            <img src="img/hero1.png">
             <div class="text">
                 <h1>Hope for the kids</h1>
-                <p>Taking care and Bringing hope and joy to the children and young people in need through the message of our Lord Jesus Christ.</p>
+                <p>Bringing hope and joy to the children and young people in need through the message of our Lord Jesus Christ.</p>
                 <button class="btn"><a href="">Get involved</a></button>
             </div>
             </div>
         
             <div class="mySlides ">
             <div class="numbertext"></div>
-            <img src="img/hero2.png" style="width:100%">
+            <img src="img/hero2.png">
             <div class="text">
                 <h1>Hope for the Nations Caracas</h1>
                 <p>Blessing our communities<br /> with love and hope</p>
@@ -74,7 +86,7 @@
         
             <div class="mySlides ">
             <div class="numbertext"></div>
-            <img src="img/hero3.png" style="width:100%">
+            <img src="img/hero3.png" >
             <div class="text">
                 <h1>Esperanza para las Naciones Venezuela</h1>
                 <!-- <p>Blessing our communities<br /> with love and hope</p> -->
@@ -120,7 +132,7 @@
                     </div>
                     
                 </div>
-                <button><a href="" class="green-btn">learn more about our impact</a></button>
+                <!-- <button class="btn"><a href="" class="">learn more about our impact</a></button> -->
             </div>
             
         </div>
@@ -134,26 +146,50 @@
         
 
         <div class="container">
-            <div class="title">
-                <h2>A light of hope<br /> Giving hope to those in need</h2> 
-            </div>
-
             <div class="grid">
                 <div class="box box1">
+                    <img src="/img/hunger2.png" alt="Hunger relief program photo">
                     <div class="overlay">
-                        <p>Box 1</p>
+                        <p>Hunger Relief</p>
                     </div>
                 </div>
                 <div class="box box2">
+                    <img src="/img/farming4.png" alt="Sustaina community garden program photo">
                     <div class="overlay">
                         
-                        <p>Box 2</p>
+                        <p>Sustainable Community Garden</p>
                     </div>
                 </div>
                 <div class="box box3">
+                    <img src="/img/farming4.png" alt="Sustainable community garden program photo">
+                    
                     <div class="overlay">
                         
-                            <p>Box 3</p>
+                            <p>Fish Farming</p>
+                    </div>
+                    
+                </div>
+                <div class="box box4">
+                    <img src="/img/farming1.png" alt="Sustainable Work program photo">
+                    <div class="overlay">
+                            <p>Sustainable Work Program</p>
+                    </div>
+                    
+                </div>
+                <div class="box box5">
+                    <img src="/img/sports3.png" alt="Hope Sports Academy program photo">
+                    <div class="overlay">
+                        
+                            <p>Hope Sport Academy</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="box box5">
+                    <img src="/img/sustainableposter.png" alt="Sustaina community garden program photo">
+                    <div class="overlay">
+                        
+                            <p>Sustainable Community Garden</p>
                     </div>
                     
                 </div>
@@ -175,10 +211,10 @@
             <div class="about-area">
                 <div class="about-text">
                     <h3>Mission</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vel at quasi aut facere explicabo architecto amet, dolores vero nisi voluptatem ducimus non necessitatibus praesentium nesciunt quibusdam fugit distinctio? Deleniti.</p>
+                    <p>Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.</p>
                     <h3>Vision</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum aliquid, facilis nostrum ut voluptatibus eum. Incidunt velit quod laboriosam officia!</p>
-                    <button class="small-btn"><a href="">Learn More</a></button>
+                    <p>All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.</p>
+                    <button class="btn"><a href="about.html">Learn More</a></button>
                 </div>
                 <div class="about-img">
                     <img src="img/volunteer.png" alt="">
@@ -188,153 +224,80 @@
     </section>
     <!-- End of About Us Section -->
 
-    <!-- Programs section -->
+<!-- new project slider -->
 
-    <section id="programs">
-        <div class="title title-center">
-            <h2>Our Programs</h2> 
-            <p>Serving those in need from the little ones to the elderly population</p>
-        </div>
-        
-        <div class="gallery container">
-            <div class="gallery-box">
-
-                <ul id="autoWidth" class="cs-hidden">
-                    <!-- 1 --------------------------->
-                    <li class="item-a">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/kidseated.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Education</h4>
+<div class="bbb_viewed" id="programs">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="bbb_main_container">
+                    <div class="bbb_viewed_title_container">
+                        <div class="title title-center">
+                            <h2 class="title-center">Our Programs</h2> 
+                            <p>Serving those in need from the little ones to the elderly population</p>
+                        </div>
+                        
+                    </div>
+                    <div class="bbb_viewed_slider_container">
+                        <div class="bbb_viewed_nav_container">
+                            <div class="bbb_viewed_nav bbb_viewed_prev"><i class="fas fa-chevron-left"></i></div>
+                            <div class="bbb_viewed_nav bbb_viewed_next"><i class="fas fa-chevron-right"></i></div>
+                        </div>
+                        
+                        <div class="owl-carousel owl-theme bbb_viewed_slider">
+                            
+                            <div class="owl-item">
+                                <div class="bbb_viewed_item discount d-flex flex-column align-items-center justify-content-center text-left">
+                                    <div class="bbb_viewed_image"><img src="/img/sustainable.png" alt=""></div>
+                                    <div class="bbb_viewed_content ">
+                                        <div class="bbb_viewed_name"><a href="#">Light of hope</a></div>
                                     </div>
                                 </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 2 --------------------------->
-                    <li class="item-b">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/sustainable.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Entrepreneurship</h4>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-left">
+                                    <div class="bbb_viewed_image"><img src="/img/kidseated.png" alt=""></div>
+                                    <div class="bbb_viewed_content text-left">
+                                        <div class="bbb_viewed_name"><a href="#">hope for the kids</a></div>
                                     </div>
                                 </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 3 --------------------------->
-                    <li class="item-c">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/elderly.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Sustaibable Fishing Farming project</h4>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-left">
+                                    <div class="bbb_viewed_image"><img src="/img/chickens.png" alt=""></div>
+                                    <div class="bbb_viewed_content text-left">
+                                        <div class="bbb_viewed_name"><a href="#">Sustainable work</a></div>
                                     </div>
                                 </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 4 --------------------------->
-                    <li class="item-d">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/chickens.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Sustaibable Farming project</h4>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-left">
+                                    <div class="bbb_viewed_image"><img src="/img/elderly.png" alt=""></div>
+                                    <div class="bbb_viewed_content text-left">
+                                        <div class="bbb_viewed_name"><a href="#">Hope for the elder</a></div>
                                     </div>
                                 </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 5 --------------------------->
-                    <li class="item-e">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/venezuelaflag.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Hunger Relief</h4>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-left">
+                                    <div class="bbb_viewed_image"><img src="/img/sustainable.png" alt=""></div>
+                                    <div class="bbb_viewed_content text-left">
+                                        <div class="bbb_viewed_name"><a href="#">Hope for the kids</a></div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                             
                         </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 6 --------------------------->
-                    <li class="item-f">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/kidseated.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>Sports Support</h4>
-                                    </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 7 --------------------------->
-                    <li class="item-g">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/elderly.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>program seven</h4>
-                                    </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                    <!-- 8 --------------------------->
-                    <li class="item-h">
-                        <!-- Single item -->
-                        <div class="gallery-item">
-                            <a href="">
-                                <div class="slide-img"><img src="img/chickens.png" alt=""></div>
-                                <div class="slide-detail">
-                                    <div>
-                                        <h4>program eight</h4>
-                                    </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                        <!-- End of single item -->
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <button class="white-btn"><a href="">View More</a></button>
 
-    </section>
+
+   
 
     <!-- End of programs section -->
 
@@ -353,19 +316,31 @@
                         <img src="img/hopeforthenationslogo.png" alt="">
                     </div>
                 </a>
-                <button class="footer-btn"><a href="https://www.paypal.com/donate?token=JIVDd1h_Ck7wZh5bNtG29iFoEDvtLLHOT7CvoIl1P0Q23O7bVzDL8cT6fooEon8V8kMDVrS9K60XMyKk">Donate</a></button>
+                <button class="btn"><a href="https://www.paypal.com/donate?token=JIVDd1h_Ck7wZh5bNtG29iFoEDvtLLHOT7CvoIl1P0Q23O7bVzDL8cT6fooEon8V8kMDVrS9K60XMyKk">Donate</a></button>
              </div>
              <div class="footer-nav">
                  <h4 class="updated-title">Useful Links</h4>
                  <ul class="footer-links">
                     <li><a href="index.html">Home</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                  </ul>
                  
              </div>
+
+             <div class="footer-nav">
+                <h4 class="updated-title">Programs</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Hunger Relief</a></li>
+                    <li><a href="#">Sustainable Community Garden</a></li>
+                    <li><a href="#">Fish Farming</a></li> 
+                    <li><a href="#">Sustainable Work Program</a></li>
+                    <li><a href="#">Hope Sports Academy</a></li>
+                </ul>
+            </div>
+
              <div class="stay-updated">
                  <div><h4 class="updated-title">Stay Updated</h4></div>
                  <div-follow-links>
