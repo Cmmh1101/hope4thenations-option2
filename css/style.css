@@ -348,7 +348,7 @@ a {
   width: 70%;
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: wrap;
   margin-bottom: 5rem;
@@ -373,12 +373,12 @@ a {
   background-size: cover;
 }
 
-.volunteer {
+/* .volunteer {
   background-image: url(../img/volunteer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .get-involved h3 {
   text-align: center;
@@ -387,7 +387,6 @@ a {
 
 .btn {
   width: 70%;
-  min-width: 350px;
   background-color: var(--light-aqua);
   padding: 15px 0;
   border-radius: 30px;
@@ -508,6 +507,10 @@ a {
   padding-right: 30px;
 }
 
+.about-text .btn {
+  margin-bottom: 3rem;
+}
+
 .about-img {
   width: 50%;
   height: 100%;
@@ -518,6 +521,7 @@ a {
 
 .about-img img {
   width: 100%;
+  max-width: 500px;
   height: 100%;
   min-width: 300px;
   -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.47);
@@ -708,14 +712,14 @@ footer {
   margin: 30px 50px;
 }
 
-.logo-area img {
+.logo-area a .footer-logo {
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 
-.footer-btn {
+.btn {
+  width: 100%;
   min-width: 200px;
-  border-bottom: 5px solid var(--light-blue);
 }
 
 .footer-btn a {
@@ -743,6 +747,7 @@ footer {
 
 .footer-nav ul li {
   line-height: 2;
+  text-align: center;
 }
 
 .footer-nav ul li a {
@@ -790,6 +795,52 @@ footer {
 }
 
 /* ======= RESPONSIVE ========== */
+
+@media only screen and (max-width: 1200px) {
+  #projects {
+    width: 100%;
+    height: auto;
+    padding: 80px 150px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray);
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .about-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-text .btn {
+    margin-bottom: 3rem;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img img {
+    max-width: none;
+  }
+}
 
 @media (max-width: 768px) {
   .menu-btn {

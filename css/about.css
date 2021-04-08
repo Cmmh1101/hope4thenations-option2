@@ -89,7 +89,7 @@ span.spam-bold {
 #team {
   width: 100%;
   height: auto;
-  padding: 100px;
+  padding: 0 100px 100px;
 }
 
 .title h2 {
@@ -213,7 +213,6 @@ span.spam-bold {
 
 .button .btn a {
   text-decoration: none;
-  color: var(--light-gray);
   font-size: 2rem;
   text-transform: uppercase;
 }

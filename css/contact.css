@@ -54,7 +54,6 @@
 
 .contactMeForm {
   width: 100%;
-  /* max-width: 500px; */
   height: auto;
   margin: 0 auto;
   text-align: left;
@@ -63,12 +62,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 4rem;
 }
 
 .formContainer {
   background-color: rgba(243, 244, 245, 0.938);
-  width: 95%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
@@ -155,29 +154,37 @@ textarea:focus {
 }
 
 .btn {
-  margin: 5% 15%;
+  margin: 15px 20px;
   /* border-radius: 5px; */
   background-color: transparent;
   border: 0;
 }
 
+.btn-contact {
+  width: 50%;
+}
+
 .btn .btn-cta {
-  color: var(--light-gray);
+  color: var(--dark-blue);
   text-decoration: none;
   /* font-weight: 600; */
   text-transform: uppercase;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border-radius: 5px;
   letter-spacing: 1px;
   transition: all 0.3s ease-in-out;
 }
-.btn .btn-cta:hover {
-  color: var(--cream);
-  background-color: var(--chocolat);
-  border: none;
-}
 
 .btn a .fas {
   padding-right: 10px;
-  color: var(--light-gray);
+  color: var(--dark-blue);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 50%;
+    margin: 15px 0;
+    /* border-radius: 5px; */
+    border: 0;
+  }
 }
