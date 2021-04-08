@@ -155,7 +155,9 @@ textarea:focus {
 
 .captcha {
   width: auto;
+  max-width: 100%;
   height: auto;
+  padding: 0 30px;
 }
 
 .btn {
