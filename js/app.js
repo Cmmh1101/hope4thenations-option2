@@ -1,11 +1,13 @@
 // ================ Scroll Reveal
 
-ScrollReveal().reveal('#hero');
-ScrollReveal().reveal('#projects', { delay: 500 });
-ScrollReveal().reveal('.project-item', { delay: 500 });
-ScrollReveal().reveal('#aboutme', { delay: 500 });
-ScrollReveal().reveal('#skillset', { delay: 500 });
-ScrollReveal().reveal('#contact', { delay: 500 });
+ScrollReveal().reveal('.hero');
+ScrollReveal().reveal('.section1', { delay: 500 });
+ScrollReveal().reveal('.section2', { delay: 500 });
+ScrollReveal().reveal('.section3', { delay: 500 });
+ScrollReveal().reveal('.section4', { delay: 500 });
+ScrollReveal().reveal('.section5', { delay: 500 });
+ScrollReveal().reveal('.section6', { delay: 500 });
+ScrollReveal().reveal('.section7', { delay: 500 });
 
 
 //  scroll down hide navbar - scroll up show navbar 

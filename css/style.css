@@ -242,8 +242,11 @@ a {
 .text h1 {
   font-size: 5rem;
   font-weight: 800;
+  text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 2rem;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--dark-blue);
 }
 
 .text p {
@@ -816,6 +819,11 @@ footer {
   background-color: var(--dark-blue);
 }
 
+.rights a:hover {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+
 /* ======= RESPONSIVE ========== */
 
 @media only screen and (max-width: 1200px) {
@@ -1094,7 +1102,7 @@ footer {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-flow: wrap;
     margin-bottom: 5rem;
