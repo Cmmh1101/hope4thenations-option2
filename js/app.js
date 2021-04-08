@@ -3,6 +3,7 @@
 ScrollReveal().reveal('.hero');
 ScrollReveal().reveal('.section1', { delay: 500 });
 ScrollReveal().reveal('.section2', { delay: 500 });
+ScrollReveal().reveal('.box', { delay: 500 });
 ScrollReveal().reveal('.section3', { delay: 500 });
 ScrollReveal().reveal('.section4', { delay: 500 });
 ScrollReveal().reveal('.section5', { delay: 500 });

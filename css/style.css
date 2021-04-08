@@ -45,8 +45,7 @@ a {
   position: absolute;
   z-index: 5;
   width: 100%;
-  height: 10vh;
-  /* background-color: rgba(100, 100, 100, 0.2); */
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,6 +58,20 @@ a {
   position: absolute;
   width: 100%;
   height: 10vh;
+  /* background-color: #cccbcb94; */
+  /* background: rgb(241, 241, 241);
+  background: linear-gradient(
+    180deg,
+    rgba(241, 241, 241, 1) 0%,
+    rgba(217, 212, 212, 0.021) 62%
+  ); */
+  background: rgb(241, 241, 241);
+  background: linear-gradient(
+    180deg,
+    rgba(241, 241, 241, 1) 15%,
+    rgba(232, 230, 230, 0.43601190476190477) 67%,
+    rgba(217, 212, 212, 0.010241596638655426) 97%
+  );
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +101,7 @@ a {
   border: none;
   outline: none;
   color: var(--dark-blue);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   padding: 15px;
@@ -147,7 +160,7 @@ a {
   text-transform: uppercase;
   color: var(--dark-blue);
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   letter-spacing: 1.5px;
   padding: 15px;
