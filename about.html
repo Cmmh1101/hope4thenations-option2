@@ -29,29 +29,33 @@
     <section id="nav">
         <div class="nav-bar">
             <div class="logo">
-                <a href="#hero" id="name"><img src="img/hopeforthenationslogo.png"></a>
+                <a href="index.html" id="name"><img src="img/hopeforthenationslogo.png"></a>
             </div>
             
             <ul class="nav-menu">
                 <li class="close">X</li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Donate</a></li>
+                <li><a href="donate.html">Donate</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Programs 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                      <a href="#">Hunger Relief</a>
+                      <a href="#">Sustainable Community Garden</a>
+                      <a href="#">Fish Farming</a>
+                      <a href="#">Sustainable Work Program</a>
+                      <a href="#">Hope Sports Academy</a>
+                    </div>
+                  </div></li>
+                <!-- <li><a href="programs.html" class="dropbtn">Programs <i class="fa fa-caret-down"></i></a></li> -->
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </section>
 
-    <section class="hero inner-page">
-        <div class="hero-img"></div>
-        <div class="hero-overlay">
-            <h1>Hope for the Nations</h1>
-            <p>Bringing hope and joy to those in need through the message of <br />our Lord Jesus Christ.</p>
-        </div>
-    </section>
-
-    <!-- End of Hero -->
+    <!-- Hero Section -->
 
     <!-- mission Section -->
 
@@ -190,7 +194,7 @@
      <div id="ourmanna-verse">Loading...</div>
      <script src="https://www.ourmanna.com/verses/api/js/?order=random" type="text/javascript"></script>
      
-         <!-- End of bible section -->
+    <!-- End of bible section -->
 
      <!-- Footer Section -->
     <footer id="footer">
@@ -244,10 +248,6 @@
     </div>
 
     <!--  End of Footer Section -->
-
-
-
-<!-- End of Contact Me & footer Section -->
 
     <!--  Jquery -->
 
