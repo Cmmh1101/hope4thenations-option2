@@ -19,7 +19,7 @@
 
 .hero.inner-page {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-image: url(../img/kidseated.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -61,7 +61,7 @@
 #mission {
   width: 100%;
   height: auto;
-  padding: 100px;
+  padding: 50px 100px 100px;
 }
 
 #mission h3 {
@@ -75,9 +75,17 @@
   text-align: left;
 }
 
-img {
+.text-wrap-img {
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  height: 50%;
+  max-height: 350px;
+  min-height: 300px;
   float: right;
   margin: 20px;
+  -webkit-box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.47);
 }
 
 span.spam-bold {
@@ -284,11 +292,6 @@ span.spam-bold {
     margin-bottom: 3rem;
     text-align: left;
   } */
-
-  img {
-    width: 100%;
-    margin: 0 0 5rem;
-  }
 
   /* span.spam-bold {
     color: var(--dark-blue);

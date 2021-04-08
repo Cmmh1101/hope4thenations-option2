@@ -16,3 +16,70 @@
   --mid-aqua: #1dd0d8;
   --light-aqua: #7ae3f4;
 }
+
+.hero.inner-page.hero-hunger {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/hunger3.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero.inner-page.hero-garden {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/gardenhero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero.inner-page.hero-farming {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/fishhero.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero.inner-page.hero-work {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/workhero.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero.inner-page.hero-sports {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/sportshero.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
