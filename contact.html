@@ -80,25 +80,22 @@
                     <form action="">
                         <div class="contactMeForm">
                             <div class="formContainer">
-                                <h4>Envia tus preguntas y pedidos</h4>
+                                <h4>Send us your questions and feedback here</h4>
                                 <div class="layer"></div>
                                 <form class="contactForm" name="share" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
                                     <div class="hidden">
                                         <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
                                     </div>
                                     <div class="form nameForm">
-                                        <label>Nombre:<input type="text" name="name" placeholder="Nombre" required/></label>
+                                        <label>Name:<input type="text" name="name" placeholder="Full name" required/></label>
                                     </div>
                                     <div class="form emailForm">
-                                        <label>Email:<input type="email" name="email" placeholder="ejemplo@email.com" required /></label>
-                                    </div>
-                                    <div class="form phoneForm">
-                                        <label>Numero de Telefono:<input type="text" name="phone" placeholder="Numero de Telefono" required /></label>
+                                        <label>Email:<input type="email" name="email" placeholder="example@email.com" required /></label>
                                     </div>
                                     <div class="form questForm">
                                         <label>Mensaje:<textarea name="message" placeholder="Escribe tus preguntas, pedidos o comentarios aqui..." required></textarea></label>
                                     </div>
-                                    <!-- <div class="captcha" data-netlify-recaptcha="true"></div> -->
+                                    <div class="captcha" data-netlify-recaptcha="true"></div>
                                     <div>
                                         <button class="btn btn-contact submit" type="submit"> <a class="btn-cta" href="#"><i class="fas fa-paper-plane"></i>Enviar</a> </button>
                                     </div>
