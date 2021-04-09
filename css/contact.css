@@ -154,30 +154,25 @@ textarea:focus {
 }
 
 .captcha {
-  width: auto;
-  max-width: 100%;
+  width: 100px;
   height: auto;
   padding: 0 30px;
 }
 
 .btn {
-  margin: 15px 0;
+  /* margin: 15px 0; */
   /* border-radius: 5px; */
-  background-color: transparent;
-  border: 0;
+  /* background-color: transparent;
+  border: 0; */
+  /* padding: 30px; */
 }
 
 .btn-contact {
-  width: 50%;
+  margin: 30px 30px;
 }
 
 .btn .btn-cta {
-  color: var(--dark-blue);
-  text-decoration: none;
-  /* font-weight: 600; */
   text-transform: uppercase;
-  /* padding: 10px 20px; */
-  border-radius: 5px;
   letter-spacing: 1px;
   transition: all 0.3s ease-in-out;
 }
@@ -188,10 +183,12 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    height: auto;
+  }
   .btn {
-    width: 50%;
-    margin: 15px 0;
-    /* border-radius: 5px; */
+    margin: 30px 30px;
     border: 0;
   }
 }
